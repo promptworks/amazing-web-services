@@ -16,5 +16,5 @@ if (reactRoot !== null) {
   new Vue(App)
 
 } else {
-  console.log('Lets do nothing :(')
+  console.log('Lets do something completely different...')
 }
