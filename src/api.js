@@ -18,7 +18,7 @@ export const fetchPrices = () => {
   let prices = {}
 
   return Promise.all(Object.keys(pricingEndpoints).map(key => {
-    console.log('   fetching ', pricingEndpoints[key], '...')
+    console.log('fetching ', pricingEndpoints[key], '...')
 
     return fetch(api + pricingEndpoints[key], {
       method: 'GET',
