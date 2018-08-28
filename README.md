@@ -19,3 +19,9 @@ Install dependencies:
 
 Compile and run the app using [Parcel](https://parceljs.org/):
 `yarn start`
+
+## The Amazing Web Services API
+
+We've already set up an API call in the app, which fetches all the relevant data you'll need to build the pricing configuration view. You can find the `fetchPrices` method in `src/api.js`. Please note, this is an asynchronous method that returns a Promise, so you'll have to resolve it as such.
+
+You'll also need to plug in an API key in `src/api.js`. Visit [https://suitor-front-end-back-end.herokuapp.com/api_key](https://suitor-front-end-back-end.herokuapp.com/api_key) to get one
