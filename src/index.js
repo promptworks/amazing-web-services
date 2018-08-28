@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import Vue from 'vue/dist/vue'
 
 import ReactApp from './ReactApp'
-import VueApp from './vue_app'
+import VueApp from './VueApp'
 
 const reactRoot = document.getElementById('react-root')
 const vueRoot = document.getElementById('vue-root')
@@ -14,7 +14,7 @@ if (reactRoot !== null) {
 
 } else if (vueRoot !== null) {
   console.log('Lets do Vue!')
-  new Vue(VueApp)
+  new Vue({ el: '#vue-root' })
 
 } else {
   console.log('Lets do something completely different...')
