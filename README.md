@@ -146,3 +146,30 @@ In this example:
 (So, if the machine has 4 vCPUs, using Fedora will cost 0.9 cents/hour (`0.2*4+0.1`) more than Ubuntu would)
 
 Note that these prices are in **addition to** the price per vCPU as described by the /prices/vcpu endpoint.
+
+
+## Design
+
+A set of wireframes have been created for this application detailing the three step process on creating a new Virtual Machine:
+
+1. Select the Operating System
+1. Configure the Virtual Machine
+1. Name the Virtual Machine
+
+## Select the Operating System
+![Select the Operating System](design/pw_aws_SELECT-OS.png)
+
+## Configure the Virtual Machine
+![Configure the Virtual Machine](design/pw_aws_CONFIGURE-VM.png)
+
+## Name the Virtual Machine
+![Name the Virtual Machine](design/pw_aws_NAME-VM.png)
+
+
+
+
+
+
+
+
+
