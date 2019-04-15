@@ -8,7 +8,7 @@ Think Digital Ocean, except slower.
 The back-end has already been implemented and your job is to build (part of) a user interface that allows users to understand our offerings and spin up new servers with ease.
 
 ## Your task
-Build a functional user interface for the "Configure a New VM" screen, as shown below in the design mockups. This screen should account for all states in the process of configuring a virtual maching:
+Build a functional user interface for the "Configure a New VM" screen, as shown below in the design mockups. This screen should account for all states in the process of configuring a virtual machine:
 - Selecting an operating system
 - Selecting the number of CPUs
 - Selecting the amount of RAM
